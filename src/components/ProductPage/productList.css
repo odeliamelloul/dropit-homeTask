@@ -1,0 +1,58 @@
+header{
+  margin: 0 auto;
+  width: max-content;
+}
+header >*
+{
+  padding: 30px;
+} 
+header h1
+{
+  width: max-content;
+  color: blueviolet;
+}
+header i 
+{
+  font-size: 45px !important;
+  color: rgb(173, 105, 236);
+}
+
+table td ,table th {
+    width: 150px;
+    font-size: large;
+
+}
+table td:nth-child(1)
+{
+    padding: 10px;
+
+}
+table td i 
+{
+  color: rgb(173, 105, 236);
+  font-size: 35px !important;
+}
+.centered-cart-qty
+{
+  position: relative;
+  right:  -3px;
+  bottom: 38px;
+  color: black;
+  font-weight: bold;
+ 
+}
+a{
+  text-decoration: none !important;
+}
+
+nav a
+{
+  text-decoration: none;
+  color: #20455e;
+  font-size: 20px;
+  padding: 5px 13px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px 1px #858c91;
+  margin-left: 5px;
+}
